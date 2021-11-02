@@ -63,6 +63,9 @@ DRACULA_GIT_NOLOCK=${DRACULA_GIT_NOLOCK:-$(dracula_test_git_optional_lock)}
 PROMPT='%(1V:%F{yellow}:%(?:%F{green}:%F{red}))%B${DRACULA_ARROW_ICON} '
 # }}}
 
+# RPROMPT
+RPROMPT=''
+
 # Time segment {{{
 dracula_time_segment() {
   if (( DRACULA_DISPLAY_TIME )); then
@@ -175,4 +178,5 @@ zle -N zle-keymap-select
 
 # Ensure effects are reset
 PROMPT+='%f%b'
+RPROMPT+='%f%b'
 
