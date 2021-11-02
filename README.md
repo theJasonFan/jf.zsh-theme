@@ -39,9 +39,9 @@ if, for some reason, the automatically detected values are incorrect, you can
 forcefully disable or enable the functionality by setting the variable
 `DRACULA_GIT_NOLOCK` to 0 or 1, respectively.
 
-## Team
+## Acknowldgements
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/zsh/graphs/contributors).
+The original dracula theme was maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/zsh/graphs/contributors).
 
 [![Aidan Williams](https://avatars0.githubusercontent.com/u/30708886?s=70)](https://github.com/AGitBoy) |
 --- | ---
